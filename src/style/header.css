@@ -1,0 +1,23 @@
+#headerContainer {
+  display: flex;
+}
+
+#titleContainer {
+  background-color: aqua;
+  padding-left: 25px;
+  width: 50%;
+  padding-top: 25px;
+}
+
+#navContainer {
+  background-color: aquamarine;
+  width: 50%;
+  padding-top: 25px;
+}
+
+ul li {
+  text-align: right;
+  display: inline;
+  margin: 25px;
+  bottom: 0;
+}
