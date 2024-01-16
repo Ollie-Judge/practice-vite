@@ -5,7 +5,7 @@ function Footer() {
     <>
       <div id="footerContainer">
         <div>
-          <p>©2024 people who copy this website will be excecuted</p>
+          <p>©2024 people who copy this website will be executed</p>
         </div>
       </div>
     </>
