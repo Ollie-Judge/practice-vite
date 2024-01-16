@@ -1,3 +1,5 @@
+import "./style/mainText.css";
+
 function MainText() {
   return (
     <>

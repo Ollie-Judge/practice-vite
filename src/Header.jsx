@@ -5,7 +5,9 @@ function Header() {
     <>
       <div id="headerContainer">
         <div id="titleContainer">
-          <h1>This is a Header</h1>
+          <h1>
+            <a href="#">This is a Header</a>
+          </h1>
         </div>
 
         <div id="navContainer">
