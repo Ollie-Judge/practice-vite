@@ -1,6 +1,11 @@
+import { useState } from "react";
 import "../style/mainText.css";
 
 function MainText() {
+  const mainTextArray = ["Here is a section of text, this is number"];
+  const [number, setNumber] = useState(0);
+  const colours = ["Red", "Green", "Blue", "Yellow"];
+
   return (
     <>
       <div id="mainText">
@@ -50,6 +55,15 @@ function MainText() {
 
         <div>
           <p>Here is a section of text, this is number 12</p>
+        </div>
+
+        <div>
+          <h1>Animals: </h1>
+          <ul>
+            {colours.map((colour) => {
+              return <li key={colour}>{colour}</li>;
+            })}
+          </ul>
         </div>
       </div>
     </>
