@@ -8,6 +8,7 @@ a {
 }
 
 #titleContainer {
+  display: flex;
   background-color: aqua;
   padding-left: 25px;
   width: 50%;
@@ -15,14 +16,16 @@ a {
 }
 
 #navContainer {
+  display: flex;
   background-color: aquamarine;
   width: 50%;
   padding-top: 25px;
 }
 
 ul li {
-  text-align: right;
+  text-align: center;
+  vertical-align: bottom;
   display: inline;
+  list-style: none;
   margin: 25px;
-  bottom: 0;
 }
