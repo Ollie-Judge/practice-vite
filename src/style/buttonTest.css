@@ -1,4 +1,13 @@
 #useStateButtons {
+  margin: 50px;
   display: flex;
   justify-content: center;
+}
+
+button {
+  padding: 2.5px 10px;
+}
+
+p {
+  margin: auto 25px;
 }
