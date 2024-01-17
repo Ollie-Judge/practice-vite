@@ -2,8 +2,6 @@ import { useState } from "react";
 import "../style/mainText.css";
 
 function MainText() {
-  const mainTextArray = ["Here is a section of text, this is number"];
-  const [number, setNumber] = useState(0);
   const colours = ["Red", "Green", "Blue", "Yellow"];
 
   return (
