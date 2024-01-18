@@ -1,4 +1,19 @@
 #mainText {
-  margin: 50px auto;
   text-align: center;
+  width: 100%;
+  margin: 25px auto;
+}
+
+.sectionText {
+  margin: 25px auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+  margin: auto 12.5px;
 }
