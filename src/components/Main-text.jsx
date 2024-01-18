@@ -3,55 +3,15 @@ import "../style/mainText.css";
 function MainText() {
   const colours = ["Red", "Green", "Blue", "Yellow"];
 
+  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
   return (
     <div id="mainText">
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 1</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 2</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 2</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 4</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 5</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 6</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 7</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 8</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 9</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 10</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 11</p>
-      </div>
-
-      <div className="sectionText">
-        <p>Here is a section of text, this is number 12</p>
-      </div>
+      {numbers.map((number) => (
+        <div className="sectionText" key={number.toString()}>
+          <p>Here is a section of text, this is number {number}</p>
+        </div>
+      ))}
 
       <div id="animalsColourDiv">
         <h1>Animals: </h1>
