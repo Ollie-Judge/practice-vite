@@ -8,7 +8,7 @@ function Header() {
   return (
     <nav className="navbar">
       <h1>
-        <a href="/home" className="title">
+        <a href="/" className="title">
           This is a Title
         </a>
       </h1>

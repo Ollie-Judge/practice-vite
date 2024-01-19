@@ -8,7 +8,7 @@ import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <Home />,
   },
   {
