@@ -26,7 +26,7 @@ function Header() {
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/gallery">Gallery</a>
+            <a href="/pokemon">Pokemon</a>
           </li>
           <li>
             <a href="/about">About</a>
